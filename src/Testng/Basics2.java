@@ -8,6 +8,7 @@ public class Basics2 {
 	public void Test(String url, String hell)
 	{
 	System.out.println("KIda");
+	System.out.println("hell is simple");
 	System.out.println(url);
 	System.out.println(hell);
 	}
