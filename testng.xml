@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Testng">
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="Testng.Basic"/>
+      <class name="Testng.Basics2"/>
+  <class name="Testng.Loan"/>
+  <class name="Testng.Loan2">
+  <methods>
+  <exclude name="homeloan"/>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite> 

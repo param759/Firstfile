@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="10" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-09T05:40:38 EDT" name="Suite" finished-at="2020-10-09T05:40:38 EDT" duration-ms="128">
+    <groups>
+      <group name="smoke">
+        <method signature="Basic.Demo()[pri:0, instance:Testng.Basic@65d6b83b]" name="Demo" class="Testng.Basic"/>
+        <method signature="Basics2.Test(java.lang.String, java.lang.String)[pri:0, instance:Testng.Basics2@d706f19]" name="Test" class="Testng.Basics2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2020-10-09T05:40:38 EDT" name="Test" finished-at="2020-10-09T05:40:38 EDT" duration-ms="128">
+      <class name="Testng.Basics2">
+        <test-method signature="Test(java.lang.String, java.lang.String)[pri:0, instance:Testng.Basics2@d706f19]" started-at="2020-10-09T05:40:38 EDT" name="Test" finished-at="2020-10-09T05:40:38 EDT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- Testng.Basics2 -->
+      <class name="Testng.Basic">
+        <test-method signature="Demo()[pri:0, instance:Testng.Basic@65d6b83b]" started-at="2020-10-09T05:40:38 EDT" name="Demo" finished-at="2020-10-09T05:40:38 EDT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- Testng.Basic -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
